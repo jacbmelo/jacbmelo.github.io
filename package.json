@@ -1,0 +1,33 @@
+{
+  "name": "jacbmelo.github.io",
+  "version": "1.0.0",
+  "description": "Personal site at GitHub of João Melo.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jacbmelo/jacbmelo.github.io.git"
+  },
+  "keywords": [
+    "site",
+    "angularjs",
+    "html5",
+    "github",
+    "pages"
+  ],
+  "author": "João Melo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jacbmelo/jacbmelo.github.io/issues"
+  },
+  "homepage": "https://github.com/jacbmelo/jacbmelo.github.io",
+  "devDependencies": {
+    "http-server": "^0.6.1"
+  },
+  "scripts": {
+    "prestart": "npm install",
+    "start": "http-server -a localhost -p 9000"
+  }
+}

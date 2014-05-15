@@ -1,0 +1,341 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"paddi",
+				"padding-left"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"bol",
+				"bolder"
+			],
+			[
+				"b",
+				"bold"
+			],
+			[
+				"f",
+				"font-weight"
+			],
+			[
+				"ma",
+				"margin-left"
+			],
+			[
+				"bor",
+				"border-right"
+			],
+			[
+				"bo",
+				"border-left"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"idigi",
+				"idigitalIconsPath"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"com",
+				"components"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: List Packages"
+			],
+			[
+				"install package",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: List Packages"
+			],
+			[
+				"lore",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"gru",
+				"Preferences: Grunt - Settings – User"
+			],
+			[
+				"grunt",
+				"Grunt"
+			],
+			[
+				"",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"con",
+				"Convert Case: Swap Case"
+			],
+			[
+				"co",
+				"Convert Case: Swap Case"
+			],
+			[
+				"per",
+				"Permute Lines: Unique"
+			],
+			[
+				"pe",
+				"Permute Lines: Unique"
+			]
+		],
+		"width": 576.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/ijoaom/dev/chat/karma-e2e.conf.js",
+		"/C/Users/ijoaom/dev/chat/karma.conf.js",
+		"/C/Users/ijoaom/dev/chat/app/index.html",
+		"/C/Users/ijoaom/dev/chat/app/styles/main.scss",
+		"/C/Users/ijoaom/dev/chat/Gruntfile.js",
+		"/C/Users/ijoaom/dev/chat/app/views/main.html",
+		"/C/desenv-java/GIT/repos/DSI-SDA/idigital.weblib/idigital.weblib.sublime-project",
+		"/C/desenv-java/GIT/repos/DSI-SDA/idigital.weblib/pt.ifap.idigital.weblib.web/idigital.weblib/resources/idigital/2.0/less/custom-variables-mixins.less",
+		"/C/desenv-java/GIT/repos/DSI-SDA/idigital.weblib/README.md",
+		"/C/desenv-java/GIT/repos/DSI-SDA/idigital.weblib/pt.ifap.idigital.weblib.web/build.xml",
+		"/C/desenv-java/GIT/repos/DSI-SDA/idigital.weblib/pt.ifap.idigital.weblib.web/idigital.weblib/scripts/app.js",
+		"/C/desenv-java/GIT/repos/DSI-SDA/idigital.weblib/pt.ifap.idigital.weblib.web/idigital.weblib/index.html",
+		"/C/desenv-java/GIT/repos/DSI-SDA/idigital.weblib/pt.ifap.idigital.weblib.web/idigital.weblib/views/base-css.html",
+		"/C/desenv-java/GIT/repos/DSI-SDA/idigital.weblib/pt.ifap.idigital.weblib.web/bower.json",
+		"/C/desenv-java/GIT/repos/DSI-SDA/idigital.weblib/pt.ifap.idigital.weblib.web/idigital.weblib/scripts/controllers/main.js",
+		"/C/desenv-java/GIT/repos/DSI-SDA/idigital.weblib/pt.ifap.idigital.weblib.web/idigital.weblib/scripts/controllers/gettingStarted.js",
+		"/C/desenv-java/GIT/repos/DSI-SDA/idigital.weblib/pt.ifap.idigital.weblib.web/package.json",
+		"/C/desenv-java/GIT/repos/DSI-SDA/idigital.weblib/pt.ifap.idigital.weblib.web/run.cmd",
+		"/C/desenv-java/GIT/repos/DSI-SDA/idigital.weblib/pt.ifap.idigital.weblib.web/idigital.weblib/views/main.html",
+		"/C/desenv-java/GIT/repos/DSI-SDA/idigital.weblib/pt.ifap.idigital.weblib.web/idigital.weblib/resources/idigital/2.0/less/default.less",
+		"/C/desenv-java/GIT/repos/DSI-SDA/idigital.weblib/pt.ifap.idigital.weblib.web/.bowerrc",
+		"/C/desenv-java/GIT/repos/DSI-SDA/idigital.weblib/pt.ifap.idigital.weblib.web/idigital.weblib/resources/idigital/2.0/less/components/app-header.less",
+		"/C/desenv-java/GIT/repos/DSI-SDA/idigital.weblib/pt.ifap.idigital.weblib.web/idigital.weblib/resources/idigital/2.0/less/custom-bootstrap.less",
+		"/C/desenv-java/GIT/repos/DSI-SDA/idigital.weblib/pt.ifap.idigital.weblib.web/idigital.weblib/views/getting-started.html",
+		"/C/desenv-java/GIT/repos/DSI-SDA/idigital.weblib/pt.ifap.idigital.weblib.web/idigital.weblib/resources/idigital/2.0/less/components/app-footer.less",
+		"/C/desenv-java/GIT/repos/DSI-SDA/idigital.weblib/pt.ifap.idigital.weblib.web/idigital.weblib/resources/idigital/2.0/less/custom-responsive.less",
+		"/C/desenv-java/GIT/repos/DSI-SDA/idigital.weblib/pt.ifap.idigital.weblib.web/idigital.weblib/views/components.html",
+		"/C/desenv-java/GIT/repos/DSI-SDA/idigital.weblib/pt.ifap.idigital.weblib.web/idigital.weblib/views/scaffolding.html",
+		"/C/desenv-java/GIT/repos/DSI-SDA/idigital.weblib/pt.ifap.idigital.weblib.web/idigital.weblib/scripts/controllers/header.js",
+		"/C/desenv-java/GIT/repos/DSI-SDA/idigital.weblib/pt.ifap.idigital.weblib.web/idigital.weblib/scripts/controllers/scaffolding.js",
+		"/C/desenv-java/GIT/repos/DSI-SDA/idigital.weblib/pt.ifap.idigital.weblib.web/idigital.weblib/scripts/controllers/baseCss.js",
+		"/C/desenv-java/GIT/repos/DSI-SDA/idigital.weblib/pt.ifap.idigital.weblib.web/idigital.weblib/scripts/controllers/components.js",
+		"/C/desenv-java/GIT/repos/DSI-SDA/idigital.weblib/pt.ifap.idigital.weblib.web/idigital.weblib/scripts/services/version.js",
+		"/C/desenv-java/GIT/repos/DSI-SDA/idigital.weblib/pt.ifap.idigital.weblib.web/idigital.weblib/scripts/filters/interpolate.js",
+		"/C/desenv-java/GIT/repos/DSI-SDA/idigital.weblib/pt.ifap.idigital.weblib.web/idigital.weblib/scripts/directives/appVersion.js",
+		"/C/desenv-java/GIT/repos/DSI-SDA/idigital.weblib/pt.ifap.idigital.weblib.web/idigital.weblib/scripts/directives.js",
+		"/C/desenv-java/GIT/repos/DSI-SDA/idigital.weblib/.bowerrc",
+		"/C/desenv-java/GIT/repos/DSI-SDA/idigital.weblib/bower.json",
+		"/C/desenv-java/GIT/repos/DSI-SDA/idigital.weblib/package.json",
+		"/C/desenv-java/GIT/repos/DSI-SDA/idigital.weblib/run.cmd",
+		"/C/desenv-java/GIT/repos/DSI-SDA/idigital.weblib/pt.ifap.idigital.weblib.web/idigital.weblib/index.html.old",
+		"/C/desenv-java/GIT/repos/DSI-SDA/idigital.weblib/pt.ifap.idigital.weblib.web/idigital.weblib/resources/idigital/2.0/less/components/misc.less",
+		"/C/desenv-java/GIT/repos/DSI-SDA/idigital.weblib/pt.ifap.idigital.weblib.web/idigital.weblib/includes/app-header.html",
+		"/C/desenv-java/GIT/repos/DSI-SDA/idigital.weblib/pt.ifap.idigital.weblib.web/idigital.weblib/index.jsp",
+		"/C/desenv-java/GIT/repos/DSI-SDA/idigital.weblib/pt.ifap.idigital.weblib.web/idigital.weblib/includes/app-footer.html",
+		"/C/Users/ijoaom/Downloads/appjs-0.0.20-win32-ia32/app/data/content/index.html",
+		"/C/Users/ijoaom/Downloads/appjs-0.0.20-win32-ia32/app/data/content/style.css",
+		"/C/desenv-java/GIT/repos/DSI-SDA/idigital.weblib/pt.ifap.idigital.weblib.web/web/resources/idigital/2.0/less/custom-variables-mixins.less",
+		"/C/desenv-java/GIT/repos/DSI-SDA/idigital.weblib/pt.ifap.idigital.weblib.web/web/includes/common-html-head.html",
+		"/C/desenv-java/GIT/repos/DSI-SDA/idigital.weblib/pt.ifap.idigital.weblib.web/web/resources/idigital/2.0/less/components/app-footer.less",
+		"/C/desenv-java/GIT/repos/DSI-SDA/idigital.weblib/pt.ifap.idigital.weblib.web/web/resources/idigital/2.0/less/components/app-header.less",
+		"/C/desenv-java/GIT/repos/DSI-SDA/idigital.weblib/pt.ifap.idigital.weblib.web/web/css/default.css",
+		"/C/desenv-java/GIT/repos/DSI-SDA/idigital.weblib/pt.ifap.idigital.weblib.web/web/ajuda/navegadorNaoSuportado.html",
+		"/C/desenv-java/GIT/repos/DSI-SDA/idigital.weblib/build.xml",
+		"/C/desenv-java/GIT/repos/DSI-SDA/idigital.weblib/pt.ifap.idigital.weblib.web/web/ajuda/paginaEmConstrucao.html",
+		"/C/desenv-java/GIT/repos/DSI-SDA/idigital.weblib/pt.ifap.idigital.weblib.web/less.bat",
+		"/C/desenv-java/GIT/repos/DSI-SDA/idigital.weblib/pt.ifap.idigital.weblib.web/web/resources/idigital/2.0/less/components/notifications.less",
+		"/C/desenv-java/GIT/repos/DSI-SDA/idigital.weblib/pt.ifap.idigital.weblib.web/web/resources/idigital/2.0/less/components/messages.less",
+		"/C/desenv-java/GIT/repos/DSI-SDA/idigital.weblib/pt.ifap.idigital.weblib.web/web/resources/idigital/2.0/less/custom-bootstrap.less",
+		"/C/desenv-java/GIT/repos/DSI-SDA/idigital.weblib/pt.ifap.idigital.weblib.web/web/resources/idigital/2.0/less/custom-responsive.less",
+		"/C/desenv-java/GIT/repos/DSI-SDA/idigital.weblib/pt.ifap.idigital.weblib.web/web/resources/idigital/2.0/less/default.less",
+		"/C/desenv-java/GIT/repos/JBoss/_iDigital.menu/doc/Protótipos/README.md",
+		"/C/Users/ijoaom/Programas/Sublime Text 3/Data/Packages/User/HTML.sublime-settings",
+		"/C/Users/ijoaom/Programas/Sublime Text 3/Data/Packages/Default/Preferences.sublime-settings",
+		"/C/desenv-java/repos/DSI-SDA/iDigital.canpu2014/canpu2014.web/web/ajuda/pages/canpu2014/edicao/edicaoEfePecExpl.htm",
+		"/C/desenv-java/repos/JBoss/_idigital.template20.OLD/app.model/build.xml",
+		"/C/Users/ijoaom/npm-debug.log",
+		"/C/Users/ijoaom/Programas/Sublime Text 3/Data/Packages/User/SublimeGrunt.sublime-settings",
+		"/C/Users/ijoaom/dev/play/webchat/webchat.sublime-project",
+		"/C/Users/ijoaom/Programas/Sublime Text 3/Data/Packages/User/Grunt.sublime-build",
+		"/C/Users/ijoaom/Desktop/Novo Documento de Texto.csv",
+		"/C/Users/ijoaom/Desktop/Inserir_perfis_UOs_em_falta_v2.sql",
+		"/C/Users/ijoaom/dev/play/webchat/app/styles/_compass_twitter_bootstrap_awesome.scss",
+		"/C/Users/ijoaom/Desktop/Eliminar_anexos_duplicados_CAN_GES_DOC_13.sql",
+		"/C/Users/ijoaom/dev/play/webchat/app/index.html"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"C:\\desenv-java\\GIT\\repos\\DSI-SDA\\idigital.weblib\\pt.ifap.idigital.weblib.web\\web\\resources\\idigital\\2.0\\less\\components"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"button-overlay",
+			"button-overlay.png",
+			".png",
+			"p {",
+			"p{ ",
+			"p { ",
+			"p ",
+			"btn",
+			"h3",
+			":hover",
+			".nav-list"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "jacbmelo.github.io.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 278.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
