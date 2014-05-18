@@ -5,7 +5,7 @@ angular.module('app')
     	function ($rootScope, $location) {
     	return {
         	link: function (scope, elem, attrs, ctrl) {
-            	$rootScope.$on('$routeChangeSuccess', function(event, currRoute, prevRoute) {
+            	$rootScope.$on('$viewContentLoaded', function(event, currRoute, prevRoute) {
                 	ga('set', 'page', $location.path());
                 	ga('send', 'pageview');
             	});
