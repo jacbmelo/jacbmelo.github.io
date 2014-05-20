@@ -31,10 +31,6 @@ body.container {
     padding-right: 20px;
 }
 
-.header {
-    opacity: .9;
-}
-
 /* Make the masthead heading the same height as the navigation */
 .header h3 {
     margin-top: 0;
