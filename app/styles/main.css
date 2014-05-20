@@ -10,9 +10,18 @@ body {
     padding-top: 50px;
 }
 
+body.error-page {
+    padding-top: 0px;
+}
+
 body.container {
   margin-top: 70px;
   padding-top: 70px;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 24px;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -20,10 +29,6 @@ body.container {
 .footer {
     padding-left: 20px;
     padding-right: 20px;
-}
-
-.header {
-    opacity: .9;
 }
 
 /* Make the masthead heading the same height as the navigation */
@@ -49,8 +54,11 @@ body.container {
 
 /* Main marketing message and sign up button */
 .jumbotron {
-    font-weight: bold;
     text-align: center;
+}
+
+.jumbotron h1{
+    font-weight: bold;
 }
 
 .jumbotron .lead {
