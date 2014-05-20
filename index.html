@@ -34,25 +34,6 @@
         Also, this only works if "apple-mobile-web-app-capable" is set to "yes".
     -->
     <link rel="apple-touch-startup-image" href="app/images/startup.png" />
-    
-    <!--
-        Prevent the user from elastic scrolling / rubber banding. Sadly, doesn't always work properly.
-        For a more solid solution, check out ScrollFix ( https://github.com/joelambert/ScrollFix )
-    -->
-    <script>
-    function blockElasticScroll(event) {
-        event.preventDefault() ;
-    }
-    
-    // In JavaScript, you can use "window.navigator.standalone" to detect wether
-    // the page is being viewed on your website, or as a standalone application.
-    
-    // You can also the detect the device the user is using.
-    // var isIPhone = navigator.userAgent.indexOf("iPhone") != -1 ;
-    // var isIPod = navigator.userAgent.indexOf("iPod") != -1 ;
-    // var isIPad = navigator.userAgent.indexOf("iPad") != -1 ;
-    // var isIOs = isIPhone || isIPod || isIPad ;  
-    </script>
 
     <base href="/">
     <title>Jacbmelo.github.io</title>
@@ -62,7 +43,7 @@
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
   </head>
-  <body data-ng-app="app" data-analytics ontouchmove="blockElasticScroll(event);">
+  <body data-ng-app="app" data-analytics>
     <!--[if lt IE 8]>
     <div class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
     <![endif]-->
