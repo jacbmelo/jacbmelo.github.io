@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "Personal site at GitHub of João Melo.",
   "main": "index.html",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/jacbmelo/jacbmelo.github.io.git"
@@ -27,6 +24,7 @@
     "http-server": "^0.6.1"
   },
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "prestart": "npm install",
     "start": "http-server -a localhost -p 9000"
   }
