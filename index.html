@@ -6,7 +6,6 @@
 
     <!-- Set the viewport to show the page at a scale of 1.0, and make it non-scalable -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"/>
-    <meta name="mobile-web-app-capable" content="yes" />
     
     <!-- Make it fullscreen / hide the browser URL bar -->
     <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -117,6 +116,12 @@
 
       ga('create', 'UA-1825008-6', 'jacbmelo.github.io');
       ga('require', 'displayfeatures');
+    </script>
+    <script>
+      // Hide browser menu.
+	    (function() {
+		    setTimeout(function(){window.scrollTo(0,0);},0);
+	    })();
     </script>
   </body>
 </html>
