@@ -100,6 +100,8 @@
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular-route.min.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <!-- parallax.js (http://matthew.wagerfield.com/parallax/) -->
+    <script src="//cdn.rawgit.com/wagerfield/parallax/master/deploy/jquery.parallax.min.js"></script>
 
     <script src="app/scripts/utils.js"></script>
     <script src="app/scripts/app.js"></script>
@@ -118,10 +120,17 @@
       ga('require', 'displayfeatures');
     </script>
     <script>
-      // Hide browser menu.
-	    (function() {
-		    setTimeout(function(){window.scrollTo(0,0);},0);
-	    })();
+    	// jQuery Selections
+    	var $html = $('html');
+			var $scene = $('#scene');
+
+			// Hide browser menu.
+			(function() {
+				setTimeout(function(){window.scrollTo(0,0);},0);
+			})();
+			
+			// Initialize parallax
+			$scene.parallax();
     </script>
   </body>
 </html>
