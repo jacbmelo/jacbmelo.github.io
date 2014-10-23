@@ -98,6 +98,16 @@ body.container {
   }
 }
 
+.jumbotron h1.large {
+  font-size: 126px;
+}
+
+@media (max-width: 768px) {
+  .jumbotron h1.large {
+    font-size: 63px;
+  }
+}
+
 .scene,
 .layer {
   display: block;
