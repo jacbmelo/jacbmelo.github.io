@@ -5,7 +5,7 @@ angular.module('app')
 		$scope.leftMenu = [];
 
 	    $scope.rightMenu = [
-	    	{'title': 'About', 'link': '#/about'}
+	    	{'title': 'About Me', 'link': '#/about'}
 	    ];
 	    
 		$scope.isActive = function (viewLocation) { 
