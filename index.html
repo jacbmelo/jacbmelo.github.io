@@ -3,45 +3,39 @@
   <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
-
+    <base href="/" target="_self">
+    
     <!-- Set the viewport to show the page at a scale of 1.0, and make it non-scalable -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"/>
     
     <!-- Make it fullscreen / hide the browser URL bar -->
     <meta name="apple-mobile-web-app-capable" content="yes" />
     
-    <!--
-        Give the status bar another colour
-        Valid values for "content" are: "default" (white), "black" and "black-translucent"
-        If set to "default" or "black", the content is displayed below the status bar. If set to
-        "black-translucent", the content is displayed under the bar.
-    -->
+    <!-- Give the status bar another colour.
+    Valid values for "content" are: "default" (white), "black" and "black-translucent"
+    If set to "default" or "black", the content is displayed below the status bar. If set to
+    "black-translucent", the content is displayed under the bar. -->
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     
-    <!--
-        Add a Home icon.
-        By default, Mobile Safari searches for a file named "apple-touch-icon.png" in the root directory of your website.
-        If it can't find any image there, you can specify it using the code below. Make sure the image has a dimension
-        of 114x114 and is a PNG file. The glossy finish and resizing for the different devices will be done automatically.
+    <!-- Add a Home icon.
+    By default, Mobile Safari searches for a file named "apple-touch-icon.png" in the root directory of your website.
+    If it can't find any image there, you can specify it using the code below. Make sure the image has a dimension
+    of 114x114 and is a PNG file. The glossy finish and resizing for the different devices will be done automatically.
         
-        In case you don't want the gloss applied, use "apple-touch-icon-precomposed" instead of "apple-touch-icon".
-    -->
+    In case you don't want the gloss applied, use "apple-touch-icon-precomposed" instead of "apple-touch-icon". -->
     <link rel="apple-touch-icon" href="app/images/apple-touch-icon.png" />
     
-    <!--
-        Add a splash screen / startup image.
-        Take note this file exactly needs to be 320x460 for iPhone or 1004x768 for iPad, and is a PNG file.
-        Also, this only works if "apple-mobile-web-app-capable" is set to "yes".
-    -->
+    <!-- Add a splash screen / startup image.
+    Take note this file exactly needs to be 320x460 for iPhone or 1004x768 for iPad, and is a PNG file.
+    Also, this only works if "apple-mobile-web-app-capable" is set to "yes". -->
     <link rel="apple-touch-startup-image" href="app/images/startup.png" />
 
-    <base href="/">
     <title>Jacbmelo.github.io</title>
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <link rel="stylesheet" href="app/styles/main.css">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    
+    <!-- Modernizr -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
   </head>
   <body data-ng-app="app" data-analytics>
     <!--[if lt IE 8]>
@@ -95,11 +89,11 @@
       </div>
     </footer>
     
-    <!-- <script data-main="scripts/main" src="//cdnjs.cloudflare.com/ajax/libs/require.js/2.1.11/require.min.js"></script> -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular-route.min.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    
     <!-- parallax.js (http://matthew.wagerfield.com/parallax/) -->
     <script src="//cdn.rawgit.com/wagerfield/parallax/master/deploy/jquery.parallax.min.js"></script>
 
@@ -122,15 +116,15 @@
     <script>
     	// jQuery Selections
     	var $html = $('html');
-			var $scene = $('#scene');
+	var $scene = $('#scene');
 
-			// Hide browser menu.
-			(function() {
-				setTimeout(function(){window.scrollTo(0,0);},0);
-			})();
-			
-			// Initialize parallax
-			$scene.parallax();
+	// Hide browser menu on iOS.
+	(function() {
+		setTimeout(function(){window.scrollTo(0,0);},0);
+	})();
+		
+	// Initialize parallax
+	$scene.parallax();
     </script>
   </body>
 </html>
