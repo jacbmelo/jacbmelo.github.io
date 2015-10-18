@@ -26,13 +26,15 @@ body.container {
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .marketing,
-.footer {
+.footer,
+footer {
     padding-left: 20px;
     padding-right: 20px;
 }
 
 /* Make the masthead heading the same height as the navigation */
-.header h3 {
+.header h3,
+header h3 {
     margin-top: 0;
     margin-bottom: 0;
     line-height: 40px;
@@ -40,7 +42,8 @@ body.container {
 }
 
 /* Custom page footer */
-.footer {
+.footer,
+footer {
     margin-top: 20px;
     padding-top: 20px;
     color: #777;
@@ -57,7 +60,7 @@ body.container {
     text-align: center;
 }
 
-.jumbotron h1{
+.jumbotron h1 {
     font-weight: bold;
 }
 
@@ -93,7 +96,8 @@ body.container {
 }
 
 @media (min-width: 768px) {
-  .footer p {
+  .footer p,
+  footer p {
     margin-bottom: 0;
   }
 }
