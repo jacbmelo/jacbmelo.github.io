@@ -52,29 +52,29 @@ Licenced under MIT (https://jacbmelo.github.io/LICENSE.txt). -->
     the page. -->
     <div ng-if="false">
       <style>
-    	.fullscreen {
-	  background-color: #fff;
-	  width: 100%;
-	  height: auto;
-	  bottom: 0px;
-	  top: 0px;
-	  left: 0;
-	  position: fixed;
-	  z-index: 10000;
-	}
-	.center {
-	  position: absolute;
-	  border: 0;
-	  width: 100%;
-	  height: 100%;
-	  top: 33%;
-	  left: 0;
-	  text-align: center;
-	}
+	    	.fullscreen {
+					background-color: #fff;
+					width: 100%;
+					height: auto;
+					bottom: 0px;
+					top: 0px;
+					left: 0;
+					position: fixed;
+					z-index: 10000;
+	    	}
+	    	.center {
+					position: absolute;
+					border: 0;
+					width: 100%;
+					height: 100%;
+					top: 33%;
+					left: 0;
+					text-align: center;
+				}
       </style>
       <div class="fullscreen">
       	<div class="center">
-      	  <i class="fa fa-cog fa-4x fa-spin"></i>
+      		<i class="fa fa-cog fa-4x fa-spin"></i>
       	  <h4>Loading. Please wait...</h4>
       	</div>
       </div>
@@ -119,19 +119,17 @@ Licenced under MIT (https://jacbmelo.github.io/LICENSE.txt). -->
     <section data-ng-view=""></section>
     
     <footer>
-      <div class="footer">
-        <p>
-          Designed and built by <a href="https://github.com/jacbmelo">João Melo</a>.<br/>
-          Licensed under <a href="LICENSE.txt" target="_blank">MIT</a>.
-        </p>
-        <p>
-          <ul class="footer-links muted">
-            <li><a href="https://github.com/jacbmelo/jacbmelo.github.io">GitHub</a></li>
-            <li>&middot;</li>
-            <li><a href="#/about">About</a></li>
-          </ul>
-        </p>
-      </div>
+      <p>
+        Designed and built by <a href="https://github.com/jacbmelo">João Melo</a>.<br/>
+				Licensed under <a href="LICENSE.txt" target="_blank">MIT</a>.
+      </p>
+      <p>
+				<ul class="footer-links muted">
+				  <li><a href="https://github.com/jacbmelo/jacbmelo.github.io">GitHub</a></li>
+				  <li>&middot;</li>
+				  <li><a href="#/about">About</a></li>
+				</ul>
+      </p>
     </footer>
     
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
@@ -158,10 +156,10 @@ Licenced under MIT (https://jacbmelo.github.io/LICENSE.txt). -->
     <script>
     	// jQuery Selections
     	var $html = $('html');
-	var $scene = $('#scene');
+    	var $scene = $('#scene');
 
-	// Hide browser menu on iOS.
-	(function(){setTimeout(function(){window.scrollTo(0,0);},0);})();
-    </script>
-  </body>
+			// Hide browser menu on iOS.
+			(function(){setTimeout(function(){window.scrollTo(0,0);},0);})();
+		</script>
+	</body>
 </html>
