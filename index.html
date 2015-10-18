@@ -40,16 +40,17 @@ Licenced under MIT (https://jacbmelo.github.io/LICENSE.txt). -->
     
     <link rel="stylesheet" href="app/styles/main.css">
     
-    <!-- Modernizr -->
+    <!-- Modernizr by Faruk, Paul, Alex, Ryan, Patrick, Stu, and Richard - https://modernizr.com/ -->
     <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    
   </head>
   <body data-ng-app="app" data-analytics>
   
-    <!-- BEGIN: Pre-Bootstrap Loading Screen. -->
+    <!-- BEGIN: Pre-Bootstrap Loading Screen.
+    This will show until the application is bootstrapped.
+    Then, the ngIf directive will immediately rip it out of
+    the page. -->
     <div ng-if="false">
-      <!-- This will show until the application is bootstrapped.
-      Then, the ngIf directive will immediately rip it out of
-      the page. -->
       <style>
     	.fullscreen {
 	  background-color: #fff;
@@ -83,7 +84,9 @@ Licenced under MIT (https://jacbmelo.github.io/LICENSE.txt). -->
     <!--[if lt IE 8]>
     <div class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
     <![endif]-->
-    <div class="header" data-ng-controller="HeaderCtrl">
+    
+    <header data-ng-controller="HeaderCtrl">
+      
       <!-- Fixed navbar -->
       <div class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container">
@@ -107,10 +110,10 @@ Licenced under MIT (https://jacbmelo.github.io/LICENSE.txt). -->
                 <a data-ng-href="{{item.link}}">{{item.title}}</a>
               </li>
             </ul>
-          </div><!--/.nav-collapse -->
+          </div>
         </div>
       </div>
-    </div>
+    </header>
 
     <!-- Application content goes here -->
     <div data-ng-view=""></div>
