@@ -126,3 +126,8 @@ header h3 {
   position: relative;
   overflow: hidden;
 }
+
+.error-page .jumbotron {
+  background-color: #fff;
+}
+}
