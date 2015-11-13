@@ -5,6 +5,7 @@
     background: #444;
     color: #fff;
     padding: 10px;
+    z-index: 100000;
 }
 
 /* Change font, space out content a bit */
