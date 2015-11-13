@@ -45,7 +45,10 @@ Licenced under MIT (https://jacbmelo.github.io/LICENSE.txt). -->
     
   </head>
   <body data-ng-app="app" data-analytics>
-  
+    <!--[if lt IE 8]>
+    <div class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+    <![endif]-->
+    
     <!-- BEGIN: Pre-Bootstrap Loading Screen.
     This will show until the application is bootstrapped.
     Then, the ngIf directive will immediately rip it out of
@@ -80,10 +83,6 @@ Licenced under MIT (https://jacbmelo.github.io/LICENSE.txt). -->
       </div>
     </div>
     <!-- END: Pre-Bootstrap Loading Screen. -->
-  	
-    <!--[if lt IE 8]>
-    <div class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
-    <![endif]-->
     
     <header data-ng-controller="HeaderCtrl">
       
