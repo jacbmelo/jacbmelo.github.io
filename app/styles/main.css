@@ -1,4 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic,900,900italic);
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic,900,900italic');
+@import url('https://fonts.googleapis.com/css?family=Lato');
 
 .browsehappy {
     margin: 0;
@@ -10,7 +11,7 @@
 
 /* Change font, space out content a bit */
 body {
-    font-family: 'Helvetica Neue', 'Roboto', 'Helvetica', 'Arial', sans-serif !important;
+    font-family: 'Lato', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !important;
     padding-top: 50px;
 }
 
@@ -89,10 +90,12 @@ header h3 {
   padding-left: 0;
   color: #999;
 }
+
 .footer-links li {
   display: inline;
   padding: 0 2px;
 }
+
 .footer-links li:first-child {
   padding-left: 0;
 }
@@ -130,5 +133,4 @@ header h3 {
 
 .error-page .jumbotron {
   background-color: #fff;
-}
 }
