@@ -13,6 +13,7 @@
 body {
     font-family: 'Lato', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !important;
     padding-top: 50px;
+    font-size: 14px;
 }
 
 body.error-page {
@@ -64,11 +65,12 @@ header h3 {
 }
 
 .jumbotron h1 {
-    font-weight: bold;
+    font-weight: 700;
 }
 
 .jumbotron .lead {
     margin-top: 20px;
+    font-weight: 300;
 }
 
 .jumbotron .btn {
