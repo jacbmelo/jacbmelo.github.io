@@ -72,7 +72,6 @@ Licenced under [MIT](https://jacbmelo.github.io/LICENSE.txt). -->
       </div>
     </div>
     <!-- END: Pre-Bootstrap Loading Screen. -->
-    
         
     <header class="navbar navbar-light navbar-static-top bd-navbar" data-ng-controller="HeaderCtrl">
       <div class="container">
@@ -88,20 +87,14 @@ Licenced under [MIT](https://jacbmelo.github.io/LICENSE.txt). -->
               <li class="nav-item active">
                 <a class="nav-item nav-link " href="/#/">jacbmelo</a>
               </li>
-            </ul>
-            
-            <ul class="nav navbar-nav navbar-right">
               <li data-ng-repeat="item in rightMenu" data-ng-class="nav-item {active: isActive(item.link)}">
                 <a data-ng-href="{{item.link}}">{{item.title}}</a>
               </li>
             </ul>
-            
           </div>
         </nav>
       </div>
     </header>
-    
-    
     
     <!-- Application content goes here -->
     <div data-ng-view=""></div>
