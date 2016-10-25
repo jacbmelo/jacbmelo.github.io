@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic,900,900italic');
-@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Arimo:400,400i,700,700i');
+/* @import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i'); */
+/* @import url('https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic,900,900italic'); */
 
 .browsehappy {
     margin: 0;
@@ -11,7 +12,7 @@
 
 /* Change font, space out content a bit */
 body {
-    font-family: 'Lato', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !important;
+    font-family: 'Arimo', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !important;
     padding-top: 50px;
     font-size: 14px;
 }
