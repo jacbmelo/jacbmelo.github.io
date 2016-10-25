@@ -73,36 +73,33 @@ Licenced under [MIT](https://jacbmelo.github.io/LICENSE.txt). -->
     </div>
     <!-- END: Pre-Bootstrap Loading Screen. -->
     
-    <header data-ng-controller="HeaderCtrl">
-      
-      <!-- Fixed navbar -->
-      <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="/#/">jacbmelo</a>
+        
+    <header class="navbar navbar-light navbar-static-top bd-navbar" data-ng-controller="HeaderCtrl">
+      <div class="container">
+        <nav>
+          <div class="clearfix">
+            <button class="navbar-toggler float-xs-right hidden-sm-up" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation"></button>
+            <a class="navbar-brand hidden-sm-up" href="/#/">
+              jacbmelo
+            </a>
           </div>
-          <div class="navbar-collapse collapse">
+          <div class="collapse navbar-toggleable-xs" id="main-nav">
             <ul class="nav navbar-nav">
-              <li data-ng-repeat="item in leftMenu" data-ng-class="{active: isActive(item.link)}">
-                <a data-ng-href="{{item.link}}">{{item.title}}</a>
-              </li>
             </ul>
+            
             <ul class="nav navbar-nav navbar-right">
-              <li data-ng-repeat="item in rightMenu" data-ng-class="{active: isActive(item.link)}">
+              <li data-ng-repeat="item in rightMenu" data-ng-class="nav-item {active: isActive(item.link)}">
                 <a data-ng-href="{{item.link}}">{{item.title}}</a>
               </li>
             </ul>
+            
           </div>
-        </div>
+        </nav>
       </div>
     </header>
-
+    
+    
+    
     <!-- Application content goes here -->
     <div data-ng-view=""></div>
     
