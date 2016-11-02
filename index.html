@@ -87,7 +87,7 @@ Licenced under [MIT](https://jacbmelo.github.io/LICENSE.txt). -->
               <li class="nav-item active">
                 <a class="nav-item nav-link " href="/#/">jacbmelo</a>
               </li>
-              <li data-ng-repeat="item in rightMenu" data-ng-class="{active: isActive(item.link)}">
+              <li data-ng-repeat="item in rightMenu" data-ng-class="nav-item {active: isActive(item.link)}">
                 <a data-ng-href="{{item.link}}">{{item.title}}</a>
               </li>
             </ul>
