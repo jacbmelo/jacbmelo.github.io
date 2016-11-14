@@ -36,14 +36,14 @@ Licenced under [MIT](https://jacbmelo.github.io/LICENSE.txt). -->
     <link rel="apple-touch-startup-image" href="app/images/startup.png">
     
     <!-- [Bootstrap](http://getbootstrap.com/) by [@mdo](https://twitter.com/mdo) and [@fat](https://twitter.com/fat) -->
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
     
     <!-- [Font Awesome](http://fontawesome.io/) by [Dave Gandy](http://twitter.com/davegandy) -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" crossorigin="anonymous">
     
     <link rel="stylesheet" href="app/styles/main.css">
     
-    <!-- Modernizr by Faruk, Paul, Alex, Ryan, Patrick, Stu, and Richard - https://modernizr.com/ -->
+    <!-- [Modernizr](https://modernizr.com/) by Faruk, Paul, Alex, Ryan, Patrick, Stu, and Richard -->
     <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" crossorigin="anonymous"></script>
     
   </head>
@@ -63,8 +63,8 @@ Licenced under [MIT](https://jacbmelo.github.io/LICENSE.txt). -->
       </style>
       <div class="fullscreen">
       	<!--[if lt IE 8]>
-        <div class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
-        <![endif]-->
+      	<div class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+	      <![endif]-->
       	<div class="center">
           <i class="fa fa-cog fa-4x fa-spin"></i>
       	  <h4>Please wait...</h4>
@@ -73,36 +73,29 @@ Licenced under [MIT](https://jacbmelo.github.io/LICENSE.txt). -->
     </div>
     <!-- END: Pre-Bootstrap Loading Screen. -->
     
-    <header data-ng-controller="HeaderCtrl">
-      
-      <!-- Fixed navbar -->
-      <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#/">jacbmelo</a>
+    <header class="navbar navbar-light navbar-static-top bd-navbar" data-ng-controller="HeaderCtrl">
+      <div class="container">
+        <nav>
+          <div class="clearfix">
+            <button class="navbar-toggler float-xs-right hidden-md-up" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation"></button>
+            <a class="navbar-brand hidden-md-up" href="/#/">
+              jacbmelo
+            </a>
           </div>
-          <div class="navbar-collapse collapse">
+          <div class="collapse navbar-toggleable-sm" id="main-nav">
             <ul class="nav navbar-nav">
-              <li data-ng-repeat="item in leftMenu" data-ng-class="{active: isActive(item.link)}">
-                <a data-ng-href="{{item.link}}">{{item.title}}</a>
+              <li class="nav-item" data-ng-class="{active: isActive('/')}">
+                <a class="nav-item nav-link" href="/#/" data-ng-class="{active: isActive('/')}">jacbmelo</a>
               </li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-              <li data-ng-repeat="item in rightMenu" data-ng-class="{active: isActive(item.link)}">
-                <a data-ng-href="{{item.link}}">{{item.title}}</a>
+              <li class="nav-item" data-ng-repeat="item in rightMenu" data-ng-class="{active: isActive(item.link)}">
+                <a class="nav-item nav-link" data-ng-href="{{item.link}}">{{item.title}}</a>
               </li>
             </ul>
           </div>
-        </div>
+        </nav>
       </div>
     </header>
-
+    
     <!-- Application content goes here -->
     <div data-ng-view=""></div>
     
@@ -121,7 +114,8 @@ Licenced under [MIT](https://jacbmelo.github.io/LICENSE.txt). -->
     </footer>
     
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" crossorigin="anonymous"></script>
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <script src="//cdn.rawgit.com/HubSpot/tether/v1.3.7/dist/js/tether.min.js" crossorigin="anonymous"></script>  
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" crossorigin="anonymous"></script>
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js" crossorigin="anonymous"></script>
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-route.min.js" crossorigin="anonymous"></script>
     

@@ -12,6 +12,6 @@ angular.module('app')
 		$scope.isActive = function (viewLocation) { 
 			console.log("viewLocation: " + viewLocation);
 			console.log("$location.path(): " + $location.path());
-			return viewLocation === "#" + $location.path();
+			return (viewLocation === "#" + $location.path()) || (viewLocation === "/#" + $location.path()) || (viewLocation === $location.path());
 		};
 	});
